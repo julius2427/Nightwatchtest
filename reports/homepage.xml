@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="homepage"
+    errors="1" failures="0" hostname="" id="" package="homepage" skipped="0"
+    tests="1" time="0.009000" timestamp="Wed, 28 Feb 2018 17:52:51 GMT">
+  
+    <testcase name="Demo using Page Objects" classname="homepage" time="0.009000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Homepage / Demo using Page Objects]:
+
+  ReferenceError: selectors is not defined
+    at PageObject.checkuserlogin (/Users/julius/Nightwatchtest/pages/staginglogin.js:19:25)
+    at Object.Demo using Page Objects (/Users/julius/Nightwatchtest/tests/homepage.js:6:26)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

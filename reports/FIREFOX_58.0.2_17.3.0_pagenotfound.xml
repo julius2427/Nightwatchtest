@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="pagenotfound"
+    errors="0" failures="1" hostname="" id="" package="pagenotfound" skipped="0"
+    tests="1" time="14.12" timestamp="Thu, 01 Mar 2018 21:34:44 GMT">
+  
+    <testcase name="Mobile Contact Smoke Test" classname="pagenotfound" time="14.12" assertions="3">
+
+    
+
+      <failure message="Timed out while waiting for element &lt;#fullHeaderWrap&gt; to be present for 2000 milliseconds.">    at PageObject.pagenotfound (/Users/julius/Nightwatchtest/pages/pagenotfound.js:5:13)
+    at Object.Mobile Contact Smoke Test (/Users/julius/Nightwatchtest/tests/pagenotfound.js:10:33)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

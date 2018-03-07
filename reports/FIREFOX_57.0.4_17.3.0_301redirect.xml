@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="301redirect"
+    errors="0" failures="1" hostname="" id="" package="301redirect" skipped="0"
+    tests="3" time="35.93" timestamp="Tue, 06 Feb 2018 12:51:48 GMT">
+  
+    <testcase name="Cintas US SSL Homepage" classname="301redirect" time="14.09" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify US SSL Uniform Work Apparel" classname="301redirect" time="18.49" assertions="2">
+
+      <failure message="SSL Test2 Uniform-Work-Apparel">    at Object.Verify US SSL Uniform Work Apparel (/Users/julius/Nightwatchtest/tests/301redirect.js:13:20)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="Cintas CA SSL" classname="301redirect" time="3.348" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

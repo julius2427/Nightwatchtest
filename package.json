@@ -1,0 +1,16 @@
+{
+  "name": "nightwatchtest",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "nightwatch.js",
+  "dependencies": {
+    "nightwatch": "^0.9.19",
+    "requirejs": "^2.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node nightwatch -e chrome"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="6">
+
+  <testsuite name="desktopcontactform"
+    errors="1" failures="0" hostname="" id="" package="desktopcontactform" skipped="5"
+    tests="6" time="0.007000" timestamp="Wed, 28 Feb 2018 15:31:43 GMT">
+  
+    <testcase name="Login Staging Environment" classname="desktopcontactform" time="0.007000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Desktopcontactform / Login Staging Environment]:
+
+  TypeError: browser.page.login is not a function
+    at Object.Login Staging Environment (/Users/julius/Nightwatchtest/tests/desktopcontactform.js:3:33)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Check if User Already Logged In" classname="desktopcontactform">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Open Contact Form" classname="desktopcontactform">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Set Required Fields" classname="desktopcontactform">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Check Contact Form Sent" classname="desktopcontactform">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Save Screenshot" classname="desktopcontactform">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

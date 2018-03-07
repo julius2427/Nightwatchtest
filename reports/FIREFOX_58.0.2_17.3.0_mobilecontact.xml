@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="4"
+            failures="1"
+            tests="1">
+
+  <testsuite name="mobilecontact"
+    errors="4" failures="1" hostname="" id="" package="mobilecontact" skipped="0"
+    tests="1" time="10.38" timestamp="Mon, 05 Mar 2018 15:54:45 GMT">
+  
+    <testcase name="Mobile Contact Smoke Test" classname="mobilecontact" time="10.38" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;.sfSubmitBtn&gt; to be present for 2000 milliseconds.">    at Object.&lt;anonymous&gt; (/Users/julius/Nightwatchtest/pages/staginglogin.js:45:17)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;#HeaderNavLocationFinder&#34; using: css selector
+    at Page.click (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at PageObject.findlocationlink (/Users/julius/Nightwatchtest/pages/locationfinder.js:5:17)
+    at Object.US Location Finder (/Users/julius/Nightwatchtest/tests/locationtest.js:10:35)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &#34;.lf-ZipSearchContainer&#34; using: css selector
+    at F.command (/usr/local/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &#34;#locationFinderFindALocationInputSearch&#34; using: css selector
+    at Page.setValue (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at PageObject.findlocationlink (/Users/julius/Nightwatchtest/pages/locationfinder.js:14:17)
+    at Object.US Location Finder (/Users/julius/Nightwatchtest/tests/locationtest.js:10:35)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &#34;#locationFinderFindALocationInputSearch&#34; using: css selector
+    at Page.setValue (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at PageObject.findlocationlink (/Users/julius/Nightwatchtest/pages/locationfinder.js:15:17)
+    at Object.US Location Finder (/Users/julius/Nightwatchtest/tests/locationtest.js:10:35)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &#34;#wrap_name&#34; using: css selector
+    at Page.setValue (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at PageObject.loginstaging (/Users/julius/Nightwatchtest/pages/staginglogin.js:34:17)
+    at Object.Mobile Contact Smoke Test (/Users/julius/Nightwatchtest/tests/mobilecontact.js:8:33)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &#34;#wrap_password&#34; using: css selector
+    at Page.setValue (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at PageObject.loginstaging (/Users/julius/Nightwatchtest/pages/staginglogin.js:35:17)
+    at Object.Mobile Contact Smoke Test (/Users/julius/Nightwatchtest/tests/mobilecontact.js:8:33)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &#34;.sfSave&#34; using: css selector
+    at Page.click (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at PageObject.loginstaging (/Users/julius/Nightwatchtest/pages/staginglogin.js:36:17)
+    at Object.Mobile Contact Smoke Test (/Users/julius/Nightwatchtest/tests/mobilecontact.js:8:33)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &#34;.sfLinkBtn.sfPrimary&#34; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/julius/Nightwatchtest/pages/staginglogin.js:44:17)
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/api/protocol.js:1303:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:172:16)
+    at emitNone (events.js:110:20)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
